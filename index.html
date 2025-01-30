@@ -1,72 +1,88 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-BR">
 <head>
-    <link rel="stylesheet" href="curriculo.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curículo</title>
+    <title>Currículo - Guilherme</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    
-    <img class="ft1" src="">
 
-    <header class="titulo"> 
-        <h1>MEU CURRICULO</h1></header>
+    <header>
+        <div class="container">
+            <h1>Currículo de Guilherme Gabriel Santana</h1>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre mim</a></li>
+                    <li><a href="#experiencia">Experiência</a></li>
+                    <li><a href="#educacao">Educação</a></li>
+                    <li><a href="#competencias">Competências</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-<!-- dados pessoais -->
-<article class="blocos">
-<nav class="bloco">
-    <h3 > Dados pessoais:</h3>
-    <p> Nome: Guilherme Gabriel Santana<br>
-    Data de nascimento: 28 de agosto de 2007<br>
-CPF: 47800541843<br>
-RG: 58176.610-43<br>
-Email:ggsantana18@gmail.com<br>
-Telefone:(19)99755-6147</p>
-</nav>
-<!-- Escolaridade -->
-<nav class="bloco">
-<h3 > Historico escolar</h3>
-    <p> Fundamental completo(SESI)<br>
-    Ensino médio em andamento(SESI)</p>
-</nav>
 
+    <section id="sobre">
+        <div class="container">
+            <h2>Sobre Mim</h2>
+            <p>Sou estudante do 3º ano do Ensino Médio no SESI Vinhedo e curso Técnico em Análise e Desenvolvimento de Sistemas no SENAI Vinhedo. Busco uma oportunidade como Jovem Aprendiz ou Estagiário em Vinhedo, Valinhos, Campinas ou região. Tenho grande interesse em aprender e contribuir com soluções inovadoras na área de tecnologia.</p>
+        </div>
+    </section>
 
-<!-- Atividades -->
+    <section id="experiencia">
+        <div class="container">
+            <h2>Experiência</h2>
+            <p>Embora esteja iniciando minha carreira profissional, já desenvolvi projetos práticos durante minha formação. Entre eles, criei aplicativos com o AppSheet para controle de vendas e gestão de atividades, além de sites responsivos usando HTML, CSS e JavaScript.</p>
+        </div>
+    </section>
 
-<nav class="bloco">
-    <h3> Atividades curriculares</h3>
-    <p> Curso de ingles(Seven)<br>
-    Curso sobre Desenvolvimento de sistemas(SENAI)<br>
-Curso sobre Python(SENAI)<br>
-Curso sobre AWS(SENAI)<br>
-Curso sobre google(SENAI)<br>
-</p>
-</nav>
+    <section id="educacao">
+        <div class="container">
+            <h2>Educação</h2>
+            <ul>
+                <li><strong>Ensino Médio:</strong> SESI Vinhedo (Conclusão prevista para Dezembro de 2025)</li>
+                <li><strong>Técnico em Análise e Desenvolvimento de Sistemas:</strong> SENAI Vinhedo (Conclusão prevista para 2025)</li>
+                <li><strong>Cursos Complementares:</strong> Programação em Python, AWS, Google Cloud, AppSheet, Programação para Data Science (SENAI Valinhos)</li>
+            </ul>
+        </div>
+    </section>
 
-<nav class="bloco">
-    <h3> Atividades extra-curriculares</h3>
-    <p> Musculação(Sky fitt)<br>
-        Aula de capoeira(SESI)<br>
-        Natação(Move)<br>
+    <section id="competencias">
+        <div class="container">
+            <h2>Competências</h2>
+            <ul>
+                <li>Conhecimentos básicos em programação: Python, HTML, CSS, JavaScript</li>
+                <li>Noções de banco de dados (MySQL, SQL Server)</li>
+                <li>Familiaridade com Git/GitHub</li>
+                <li>Conhecimento do pacote Office e metodologias ágeis (Scrum)</li>
+                <li>Raciocínio lógico, organização, boa comunicação e trabalho em equipe</li>
+            </ul>
+        </div>
+    </section>
 
-    </p>
-</nav>
+    <section id="projetos">
+        <div class="container">
+            <h2>Projetos</h2>
+            <ul>
+                <li>Criação de aplicativos para controle de vendas e gerenciamento de atividades com AppSheet.</li>
+                <li>Desenvolvimento de sites responsivos com HTML, CSS e JavaScript.</li>
+                <li>Participação em eventos tecnológicos e grupos de estudo sobre Inteligência Artificial, IoT e Desenvolvimento Web.</li>
+            </ul>
+        </div>
+    </section>
 
- <nav class="bloco">
-    <h3> Trabalhos feitos</h3>
-    <p> Ajudei em trabalhos comunitarios<br>
-        para pessoas carente e necessitadas junto com minha igreja local</p>
- </nav>
+    <section id="contato">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Email: <a href="mailto:ggsantana18@gmail.com">ggsantana18@gmail.com</a></p>
+            <p>Telefone: (19) 9975-56147</p>
+        </div>
+    </section>
 
-</article>
+    <button id="scrollToTop" onclick="scrollToTop()">Voltar ao Topo</button>
 
-<footer>
-  
-    
-</footer>
-
-
+    <script src="script.js"></script>
 </body>
 </html>
